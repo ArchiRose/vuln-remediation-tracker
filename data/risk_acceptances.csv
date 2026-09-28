@@ -1,0 +1,5 @@
+host,cve,approver,expires,reason
+FS01,CVE-2016-2183,Head of IT,2026-12-31,Legacy backup appliance needs 3DES until it is replaced in Q4
+WEB01,CVE-2015-4000,,2026-12-31,Low risk
+PRINT01,CVE-2021-34527,Head of IT,2026-10-31,Print server replacement planned
+SQL01,CVE-2022-0778,Head of IT,2026-09-01,Waiting for vendor patch

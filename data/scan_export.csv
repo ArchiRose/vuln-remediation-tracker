@@ -1,0 +1,14 @@
+host,ip,cve,severity,cvss,title,first_seen,last_seen
+APP01,10.20.20.15,CVE-2021-44228,Critical,10.0,Apache Log4j remote code execution (Log4Shell),2026-08-10,2026-09-27
+APP01,10.20.20.15,CVE-2021-44228,Critical,10.0,Apache Log4j remote code execution (Log4Shell),2026-08-17,2026-09-27
+LAPTOP-0142,10.10.30.142,CVE-2023-23397,Critical,9.8,Microsoft Outlook elevation of privilege,2026-09-14,2026-09-27
+PRINT01,10.20.20.40,CVE-2021-34527,High,8.8,Windows Print Spooler remote code execution (PrintNightmare),2026-07-20,2026-09-27
+LAPTOP-0198,10.10.30.198,CVE-2022-30190,High,7.8,Microsoft Support Diagnostic Tool remote code execution (Follina),2026-09-21,2026-09-27
+LAPTOP-0231,10.10.30.231,CVE-2023-36884,High,8.8,Office and Windows HTML remote code execution,2026-09-24,2026-09-27
+SQL01,10.20.20.30,CVE-2022-0778,High,7.5,OpenSSL infinite loop in BN_mod_sqrt,2026-08-17,2026-09-27
+WEB01,10.30.10.10,CVE-2023-48795,Medium,5.9,SSH Terrapin prefix truncation,2026-06-29,2026-09-27
+WEB01,10.30.10.10,CVE-2023-48795,Medium,5.9,SSH Terrapin prefix truncation,2026-07-06,2026-09-27
+FS01,10.20.20.20,CVE-2016-2183,Medium,7.5,SWEET32: 64-bit block cipher in TLS,2026-08-03,2026-09-27
+DC01,10.20.20.10,CVE-2016-2183,Medium,7.5,SWEET32: 64-bit block cipher in TLS,2026-09-07,2026-09-27
+WEB01,10.30.10.10,CVE-2015-4000,Low,3.7,Logjam: weak Diffie-Hellman key exchange,2026-05-11,2026-09-27
+FS01,10.20.20.20,NONE,Info,0.0,TLS certificate information,2026-06-01,2026-09-27

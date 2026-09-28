@@ -1,0 +1,9 @@
+host,owner,team
+APP01,Application team,Business apps
+SQL01,Database team,Business apps
+WEB01,Web team,Digital
+FS01,Server team,IT operations
+DC01,Server team,IT operations
+PRINT01,Server team,IT operations
+LAPTOP-0142,Desktop team,IT operations
+LAPTOP-0198,Desktop team,IT operations

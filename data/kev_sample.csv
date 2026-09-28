@@ -1,0 +1,6 @@
+cveID,vendorProject,product,vulnerabilityName
+CVE-2021-44228,Apache,Log4j2,Apache Log4j2 Remote Code Execution Vulnerability
+CVE-2023-23397,Microsoft,Office Outlook,Microsoft Office Outlook Privilege Escalation Vulnerability
+CVE-2021-34527,Microsoft,Windows,Microsoft Windows Print Spooler Remote Code Execution Vulnerability
+CVE-2022-30190,Microsoft,Windows,Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability
+CVE-2023-36884,Microsoft,Office and Windows,Microsoft Office and Windows HTML Remote Code Execution Vulnerability
