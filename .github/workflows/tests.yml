@@ -1,0 +1,23 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r requirements-dev.txt
+      - run: python -m pytest -q
+      - name: Run the tracker on the sample data
+        run: >
+          python vrt.py --scan data/scan_export.csv --owners data/asset_owners.csv
+          --kev data/kev_sample.csv --exceptions data/risk_acceptances.csv --as-of 2026-09-28
